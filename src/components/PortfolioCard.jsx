@@ -1,5 +1,3 @@
-import React from 'react'
-
 export const PortfolioCard = () => {
   return (
     <div className='mx-6 md:mx-auto max-w-sm bg-transparent overflow-hidden md:max-w-xl m-12'>
@@ -15,10 +13,10 @@ export const PortfolioCard = () => {
           </p>
         </div>
         <div className='mt-4'>
-          <a href='https://twitter.com/yourusername' className='mr-2 text-black dark:text-white hover:text-blue-500 dark:hover:text-blue-300'>
+          <a href='https://twitter.com/carlosazeta' target='_BLANK' className='mr-2 text-black dark:text-white hover:text-blue-500 dark:hover:text-blue-300' rel='noreferrer'>
             <i className='fab fa-twitter' />
           </a>
-          <a href='https://linkedin.com/in/yourusername' className='m-2 text-black dark:text-white hover:text-blue-500 dark:hover:text-blue-300'>
+          <a href='https://linkedin.com/in/carlos-agundez-torres' target='_BLANK' className='m-2 text-black dark:text-white hover:text-blue-500 dark:hover:text-blue-300' rel='noreferrer'>
             <i className='fab fa-linkedin' />
           </a>
         </div>

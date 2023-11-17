@@ -1,12 +1,19 @@
 import './App.css'
+import { Route, Routes } from 'react-router-dom'
+import { Home } from './views/Home'
+import { Projects } from './views/Projects'
+import { Contact } from './views/Contact'
 import NavBar from './components/NavBar'
-import { PortfolioCard } from './components/PortfolioCard'
 
 function App () {
   return (
     <div className='bg-white text-black dark:bg-black dark:text-white h-screen w-screen'>
       <NavBar />
-      <PortfolioCard />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/projects' element={<Projects />} />
+        <Route path='/contact' element={<Contact />} />
+      </Routes>
     </div>
   )
 }
