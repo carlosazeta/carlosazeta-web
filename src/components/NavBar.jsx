@@ -36,7 +36,7 @@ const NavBar = () => {
             </svg>
           </a>
           {/* <Link className='hidden lg:block' to='/projects'>Projects</Link> */}
-          <Link to='/contact'>Contact</Link>
+          {/* <Link to='/contact'>Contact</Link> */}
         </div>
       </div>
       {/* <div className='block lg:hidden'>

@@ -28,7 +28,7 @@ export function ProjectsTable () {
                   <a href='https://github.com/carlosazeta/guess-pokemon' target='_blank' className='text-black dark:text-white hover:underline' rel='noreferrer'>Code</a>
                 </td>
                 <td className='py-4 px-6'>
-                  <a href='https://guess-pokemon-chi.vercel.app/' className='text-black dark:text-white hover:underline'>Preview</a>
+                  <a href='https://guess-pokemon-chi.vercel.app/' target='_blank' className='text-black dark:text-white hover:underline' rel='noreferrer'>Preview</a>
                 </td>
               </tr>
               <tr className='bg-white dark:bg-black'>
@@ -73,6 +73,9 @@ export function ProjectsTable () {
                 <td className='py-4 px-6'>React TypeScript</td>
                 <td className='py-4 px-6'>
                   <a href='https://github.com/carlosazeta/users-crud' target='_blank' className='text-black dark:text-white hover:underline' rel='noreferrer'>Code</a>
+                </td>
+                <td className='py-4 px-6'>
+                  <a href='https://users-crud-zeta.vercel.app/' target='_blank' className='text-black dark:text-white hover:underline' rel='noreferrer'>Preview</a>
                 </td>
               </tr>
             </tbody>
