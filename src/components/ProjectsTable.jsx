@@ -12,7 +12,17 @@ export function ProjectsTable () {
             </thead>
             <tbody>
               <tr className='bg-white dark:bg-black'>
-                <td className='py-4 px-6'>Book reading list</td>
+                <td className='py-4 px-6'>Nike Shop</td>
+                <td className='py-4 px-6'>React TypeScript</td>
+                <td className='py-4 px-6'>
+                  <a href='https://github.com/carlosazeta/nike-shop' target='_blank' className='text-black dark:text-white hover:underline' rel='noreferrer'>Code</a>
+                </td>
+                <td className='py-4 px-6'>
+                  <a href='https://nike-shop-sepia.vercel.app/' target='_blank' className='text-black dark:text-white hover:underline' rel='noreferrer'>Preview</a>
+                </td>
+              </tr>
+              <tr className='bg-white dark:bg-black'>
+                <td className='py-4 px-6'>Book Reading List</td>
                 <td className='py-4 px-6'>React JavaScript</td>
                 <td className='py-4 px-6'>
                   <a href='https://github.com/carlosazeta/book-list' target='_blank' className='text-black dark:text-white hover:underline' rel='noreferrer'>Code</a>
