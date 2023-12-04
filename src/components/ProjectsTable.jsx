@@ -1,7 +1,7 @@
 export function ProjectsTable () {
   return (
     <>
-      <div className='mx-6 md:mx-auto max-w-sm overflow-hidden md:max-w-xl m-12'>
+      <div className='mx-6 md:mx-auto max-w-sm overflow-hidden md:max-w-xl m-12 pb-6'>
         <div className='overflow-x-auto relative shadow-md sm:rounded-lg border border-black dark:border-slate-700 dark:hover:border-slate-500 hover:shadow-lg hover:shadow-white/50 transition-all duration-300'>
           <table className='w-full text-sm text-left text-gray-500 dark:text-gray-400'>
             <thead className='text-xs text-gray-700 uppercase bg-gray-50 dark:bg-black dark:text-gray-400'>
@@ -11,6 +11,16 @@ export function ProjectsTable () {
               </tr>
             </thead>
             <tbody>
+              <tr className='bg-white dark:bg-black'>
+                <td className='py-4 px-6'>Markdown Converter</td>
+                <td className='py-4 px-6'>React TypeScript</td>
+                <td className='py-4 px-6'>
+                  <a href='https://github.com/carlosazeta/markdown-converter' target='_blank' className='text-black dark:text-white hover:underline' rel='noreferrer'>Code</a>
+                </td>
+                <td className='py-4 px-6'>
+                  <a href='https://markdown-converter-eosin.vercel.app/' target='_blank' className='text-black dark:text-white hover:underline' rel='noreferrer'>Preview</a>
+                </td>
+              </tr>
               <tr className='bg-white dark:bg-black'>
                 <td className='py-4 px-6'>Songs Match</td>
                 <td className='py-4 px-6'>React TypeScript Tailwind FramerMotion</td>
