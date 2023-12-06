@@ -1,7 +1,7 @@
 export function ProjectsTable () {
   return (
     <>
-      <div className='mx-6 md:mx-auto max-w-sm overflow-hidden md:max-w-xl m-12 pb-6'>
+      <div className='mx-6 md:mx-auto max-w-sm overflow-hidden md:max-w-xl m-12'>
         <div className='overflow-x-auto relative shadow-md sm:rounded-lg border border-black dark:border-slate-700 dark:hover:border-slate-500 hover:shadow-lg hover:shadow-white/50 transition-all duration-300'>
           <table className='w-full text-sm text-left text-gray-500 dark:text-gray-400'>
             <thead className='text-xs text-gray-700 uppercase bg-gray-50 dark:bg-black dark:text-gray-400'>
