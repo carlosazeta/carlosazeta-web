@@ -12,7 +12,7 @@ export const projectsData = [
 	{
 		id: 2,
 		title: 'Top Tracks',
-		stack: 'React TypeScript Tailwind FramerMotion',
+		stack: 'React TypeScript Tailwind',
 		githubUrl: 'https://github.com/carlosazeta/top-songs',
 		previewUrl: 'https://top-songs-six.vercel.app/',
 	},
@@ -59,7 +59,7 @@ export const projectsData = [
 		previewUrl: 'https://cat-meme-generator.vercel.app/',
 	},
 	{
-		id: 1,
+		id: 9,
 		title: 'Users CRUD',
 		stack: 'React TypeScript',
 		githubUrl: 'https://github.com/carlosazeta/users-crud',
