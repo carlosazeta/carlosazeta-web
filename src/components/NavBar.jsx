@@ -1,5 +1,4 @@
 import { useDark } from '../hooks/useDark'
-import { Link } from 'react-router-dom'
 
 const NavBar = () => {
   const [darkMode, setDarkMode] = useDark()
@@ -8,7 +7,7 @@ const NavBar = () => {
     <nav className='max-w-4xl flex items-center justify-between pt-6'>
       <div className='flex justify-between w-screen px-6'>
         <div>
-          <Link to='/' className='font-semibold text-xl cursor-pointer'>Azeta .</Link>
+          <a href='/' className='font-semibold text-xl cursor-pointer'>Azeta . </a>
         </div>
         <div className='flex gap-4'>
           <button
