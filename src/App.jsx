@@ -7,8 +7,10 @@ function App () {
   return (
     <div className='flex flex-col items-center min-h-screen bg-white text-black dark:bg-black dark:text-white cursor-crosshair'>
       <NavBar />
-      <PortfolioCard />
-      <ProjectList />
+      <div className='flex flex-col items-'>
+        <PortfolioCard />
+        <ProjectList />
+      </div>
     </div>
   )
 }
