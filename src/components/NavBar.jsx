@@ -7,8 +7,8 @@ const NavBar = () => {
   const [darkMode, setDarkMode] = useDark()
 
   return (
-    <nav className='flex items-center justify-between p-6'>
-      <div className='flex justify-between mr-6 w-full'>
+    <nav className='max-w-4xl mx-auto flex items-center justify-between p-6'>
+      <div className='flex justify-between w-full'>
         <div>
           <Link to='/' className='font-semibold text-xl cursor-pointer'>Azeta .</Link>
         </div>
