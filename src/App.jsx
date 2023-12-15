@@ -1,17 +1,14 @@
 import './App.css'
-import { Route, Routes } from 'react-router-dom'
-import { Home } from './views/Home'
-// import { Contact } from './views/Contact'
 import NavBar from './components/NavBar'
+import { PortfolioCard } from './components/PortfolioCard'
+import { ProjectList } from './components/ProjectList'
 
 function App () {
   return (
-    <div className='bg-white text-black dark:bg-black dark:text-white h-screen w-screen cursor-crosshair'>
+    <div className='flex flex-col items-center min-h-screen bg-white text-black dark:bg-black dark:text-white cursor-crosshair'>
       <NavBar />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        {/* <Route path='/contact' element={<Contact />} /> */}
-      </Routes>
+      <PortfolioCard />
+      <ProjectList />
     </div>
   )
 }
