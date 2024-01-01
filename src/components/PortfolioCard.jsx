@@ -1,6 +1,6 @@
 export const PortfolioCard = () => {
   return (
-    <div className='mt-12 mb-12 ml-2'>
+    <div className='mt-12 mb-12 ml-6 md:ml-1'>
       <div className='mt-4'>
         <div className='text-xl font-bold text-black dark:text-slate-300 hover:text-black dark:hover:text-white transition-colors duration-300'>Carlos Agúndez</div>
         <p className='text-gray-500 dark:text-slate-300 mb-6 hover:text-gray-600 dark:hover:text-white transition-colors duration-300'>Frontend Developer</p>
