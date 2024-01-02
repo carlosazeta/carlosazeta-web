@@ -3,7 +3,7 @@ export function ProjectCard ({ title, stack, github, preview }) {
   return (
     <div className='flex flex-col w-[21rem] md:w-[17] max-h-24 p-4 rounded-lg border border-black dark:border-slate-700 dark:hover:border-slate-500 transition-all duration-300'>
       <div className='mb-2 flex items-center justify-between'>
-        <a href={preview} target='_blank' className='group flex items-center text-lg font-medium' rel='noreferrer'>
+        <a href={preview} target='_blank' className='group flex items-center text-lg' rel='noreferrer'>
           {title}
           <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor' className='ml-2 h-4 w-4 group-hover:translate-y-[-2px] transition-transform'>
             <path strokeLinecap='round' strokeLinejoin='round' d='m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25' />
@@ -16,9 +16,8 @@ export function ProjectCard ({ title, stack, github, preview }) {
             </svg>
           </a>
         </div>
-
       </div>
-      <p className='text-gray-400 text-overflow:ellipsis text-sm'>{stack}
+      <p className='font-mono text-gray-400 text-overflow:ellipsis text-sm'>{stack}
       </p>
     </div>
   )
