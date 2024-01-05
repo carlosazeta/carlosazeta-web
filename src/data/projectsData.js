@@ -65,4 +65,11 @@ export const projectsData = [
 		githubUrl: 'https://github.com/carlosazeta/users-crud',
 		previewUrl: 'https://github.com/carlosazeta/users-crud',
 	},
+	{
+		id: 10,
+		title: 'Internet Spaces',
+		stack: 'NextJS TypeScript',
+		githubUrl: '',
+		previewUrl: 'https://www.internetspac.es/',
+	},
 ]
