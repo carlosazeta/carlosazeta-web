@@ -1,6 +1,3 @@
-/* eslint-disable comma-dangle */
-/* eslint-disable indent */
-/* eslint-disable no-tabs */
 export const projectsData = [
 	{
 		id: 1,

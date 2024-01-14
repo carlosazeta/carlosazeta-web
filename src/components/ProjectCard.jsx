@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import ArrowLinkIcon from './icons/ArrowLinkIcon'
 import GitHubIcon from './icons/GitHubIcon'
 

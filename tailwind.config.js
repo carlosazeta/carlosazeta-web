@@ -1,6 +1,3 @@
-/* eslint-disable comma-dangle */
-/* eslint-disable indent */
-/* eslint-disable no-tabs */
 /** @type {import('tailwindcss').Config} */
 export default {
 	darkMode: 'class',
@@ -8,9 +5,8 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				mono: ['Geist Mono', 'monospace'], // Asegúrate de usar el nombre correcto
+				mono: ['Geist Mono', 'monospace'],
 			},
-			// Añade pesos si no están incluidos por defecto
 			fontWeight: {
 				medium: 500,
 				normal: 400,
