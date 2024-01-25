@@ -10,6 +10,7 @@ export function ProjectList () {
             <ProjectCard
               title={project.title}
               stack={project.stack}
+              description={project.description}
               github={project.githubUrl}
               preview={project.previewUrl}
             />
